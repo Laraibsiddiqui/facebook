@@ -1,0 +1,229 @@
+.Face {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(226, 226, 226);
+    position: fixed;
+    overflow-y: scroll;
+}
+
+.Main {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+
+
+}
+
+.Box1 {
+    height: 100%;
+    width: 20%;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    position: fixed;
+    flex: 1;
+}
+.Box1:hover{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+}
+
+.Box2 {
+    height: 100%;
+    width: 60%;
+    margin-left: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+}
+
+.Box3 {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 860px;
+    position: fixed;
+    
+    background-color: rgb(226, 226, 226);
+    /* overflow: scroll; */
+    background-color: aqua;
+
+}
+
+.Header {
+    display: flex;
+    background-color: #ffff;
+    width: 100%;
+    height: 9%;
+    border-bottom: 1px solid black;
+    box-shadow: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 23;
+    /* overflow: hidden; */
+}
+
+.Header .H-p1 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+}
+
+#logo {
+    height: 30px;
+    width: 30px;
+    background-color: #ffff;
+    border-radius: 100%;
+    position: relative;
+    left: 15px;
+}
+
+#search {
+    width: 185px;
+    height: 38px;
+    border-radius: 20px;
+    padding-left: 15px;
+    border: 0px;
+    background-color: rgb(231, 229, 229);
+    cursor: pointer;
+    /* margin-top: 5px; */
+    position: relative;
+    left: 20px;
+
+}
+
+.Header .H-p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    width: 50%;
+    height: 100%;
+}
+
+.icon {
+    background-color: #ffff;
+    height: 100%;
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 10px ;
+}
+
+#logo1 {
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    border-radius: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo2 {
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+    border-radius: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Header .H-p3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffff;
+    width: 25%;
+    height: 100%;
+}
+
+.hlast {
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+    /* background-color: aqua; */
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.black {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: rgb(196, 196, 196);
+
+}
+
+.profile {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#naam {
+    position: relative;
+    bottom: 7px;
+    font-weight: 450;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.black:hover {
+    padding: 1px;
+}
+
+
+.hlast1 {
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+}
+
+
+
+/* .dropdown {
+  } */
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .hlast1:hover .dropdown-content {
+    display: flex;
+    position: absolute;
+    right: 5px;
+    border-radius: 10px;
+  }
